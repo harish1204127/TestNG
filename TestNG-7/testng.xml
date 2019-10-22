@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" >
+
+
+
+
+
+
+<test name="login test cases">
+    <groups>
+        <run>
+            <include name="Regression"/>
+        </run>
+         </groups>
+    <classes>
+        <class name="com.Login" ></class>  
+        <class name="com.Signup" ></class> 
+    </classes>
+</test>
+
+
+
+
+</suite>

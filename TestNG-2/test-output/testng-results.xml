@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="333" started-at="2019-08-10T15:40:06Z" finished-at="2019-08-10T15:40:07Z">
+    <groups>
+    </groups>
+    <test name="login test cases" duration-ms="122" started-at="2019-08-10T15:40:06Z" finished-at="2019-08-10T15:40:07Z">
+      <class name="com.Login">
+        <test-method status="PASS" signature="login_facebook()[pri:0, instance:com.Login@591f989e]" name="login_facebook" duration-ms="34" started-at="2019-08-10T21:10:06Z" finished-at="2019-08-10T21:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_facebook -->
+        <test-method status="PASS" signature="login_google()[pri:0, instance:com.Login@591f989e]" name="login_google" duration-ms="5" started-at="2019-08-10T21:10:07Z" finished-at="2019-08-10T21:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_google -->
+      </class> <!-- com.Login -->
+    </test> <!-- login test cases -->
+    <test name="Signup test cases" duration-ms="18" started-at="2019-08-10T15:40:07Z" finished-at="2019-08-10T15:40:07Z">
+      <class name="com.Signup">
+        <test-method status="PASS" signature="signup_facebook()[pri:0, instance:com.Signup@649d209a]" name="signup_facebook" duration-ms="2" started-at="2019-08-10T21:10:07Z" finished-at="2019-08-10T21:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_facebook -->
+        <test-method status="PASS" signature="signup_google()[pri:0, instance:com.Signup@649d209a]" name="signup_google" duration-ms="3" started-at="2019-08-10T21:10:07Z" finished-at="2019-08-10T21:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_google -->
+      </class> <!-- com.Signup -->
+    </test> <!-- Signup test cases -->
+  </suite> <!-- TestNG Learning -->
+</testng-results>

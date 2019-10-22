@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learning]">
+  <test name="login test cases">
+    <groups>
+      <define name="group2">
+        <include name="Regression"/>
+        <include name="Sanity"/>
+      </define> <!-- group2 -->
+      <define name="group1">
+        <include name="Regression"/>
+        <include name="UI"/>
+      </define> <!-- group1 -->
+      <run>
+        <include name="group1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Login"/>
+      <class name="com.Signup"/>
+    </classes>
+  </test> <!-- login test cases -->
+</suite> <!-- Failed suite [TestNG Learning] -->

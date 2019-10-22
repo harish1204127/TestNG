@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+
+<test name="login test cases">
+    <parameter name="browser" value="Firefox"/>
+	<parameter name="username" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+    <classes>
+        <class name="com.Login" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>

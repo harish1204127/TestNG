@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" >
+    <listeners>
+        <listener class-name="Util.Listener"/>
+        </listeners>
+<test name="login test cases">
+   <groups>
+        <define name="group1">
+            <include name="Regression"/>
+            <include name="UI"/>
+            </define>
+            
+           <define name="group2">
+            <include name="Regression"/>
+            <include name="Sanity"/>
+            </define>
+        <run>
+            <include name="group1"/>
+        </run>
+         </groups>
+    <classes>
+        <class name="com.Login" ></class>  
+        <class name="com.Signup" ></class> 
+    </classes>
+</test>
+
+
+
+
+</suite>

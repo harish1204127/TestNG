@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Learning]">
+  <test name="login test cases(failed)">
+    <classes>
+      <class name="com.dependonmetheods">
+        <methods>
+          <include name="dividedByZero2"/>
+          <include name="testcases2"/>
+        </methods>
+      </class> <!-- com.dependonmetheods -->
+    </classes>
+  </test> <!-- login test cases(failed) -->
+</suite> <!-- Failed suite [TestNG Learning] -->

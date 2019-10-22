@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" parallel="tests" thread-count="2">
+
+parallel="methods" thread-count="2" 
+parallel="classes" thread-count="2" 
+parallel="tests" thread-count="2"
+    
+
+
+
+
+<test name="login test cases">
+    <classes>
+        <class name="com.Login" ></class>  
+    </classes>
+</test>
+
+<test name="Signup test cases">
+    <classes>
+        <class name="com.Signup" ></class>  
+    </classes>
+</test>
+
+
+</suite>

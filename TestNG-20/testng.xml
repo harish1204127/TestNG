@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+<test name="base test cases" preserve-order="false">
+    <classes>
+         <class name="com.testcases2" ></class> 
+           <class name="com.testcases" ></class>  
+        
+     
+    </classes>
+</test>
+
+
+</suite>

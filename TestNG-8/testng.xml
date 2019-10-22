@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" >
+
+
+
+
+
+
+<test name="login test cases">
+    <groups>
+        <define name="all">
+            <include name="Regression"/>
+            <include name="UI"/>
+            </define>
+            
+           <define name="all2">
+            <include name="Regression"/>
+            <include name="Sanity"/>
+            </define>
+        <run>
+            <include name="all2"/>
+        </run>
+         </groups>
+    <classes>
+        <class name="com.Login" ></class>  
+        <class name="com.Signup" ></class> 
+    </classes>
+</test>
+
+
+
+
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="135" started-at="2019-08-10T11:27:31Z" finished-at="2019-08-10T11:27:31Z">
+    <groups>
+    </groups>
+    <test name="login test cases" duration-ms="135" started-at="2019-08-10T11:27:31Z" finished-at="2019-08-10T11:27:31Z">
+      <class name="com.Signup">
+        <test-method status="PASS" signature="signup_facebook()[pri:0, instance:com.Signup@33a10788]" name="signup_facebook" duration-ms="3" started-at="2019-08-10T16:57:31Z" finished-at="2019-08-10T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_facebook -->
+        <test-method status="PASS" signature="signup_google()[pri:0, instance:com.Signup@33a10788]" name="signup_google" duration-ms="3" started-at="2019-08-10T16:57:31Z" finished-at="2019-08-10T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup_google -->
+      </class> <!-- com.Signup -->
+      <class name="com.Login">
+        <test-method status="PASS" signature="login_google()[pri:0, instance:com.Login@233c0b17]" name="login_google" duration-ms="30" started-at="2019-08-10T16:57:31Z" finished-at="2019-08-10T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_google -->
+        <test-method status="PASS" signature="login_facebook()[pri:0, instance:com.Login@233c0b17]" name="login_facebook" duration-ms="4" started-at="2019-08-10T16:57:31Z" finished-at="2019-08-10T16:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_facebook -->
+      </class> <!-- com.Login -->
+    </test> <!-- login test cases -->
+  </suite> <!-- TestNG Learning -->
+</testng-results>

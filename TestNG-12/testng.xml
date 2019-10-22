@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+
+    
+
+
+
+
+<test name="login test cases">
+    <classes>
+        <class name="com.timeout" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>

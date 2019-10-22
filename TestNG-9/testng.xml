@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning" >
+
+
+
+
+
+
+<test name="login test cases">
+    
+    <classes>
+        <class name="com.Login" >
+            <methods>
+                <include name="login_google" />
+                <include name="login_facebook" />
+                <exclude name="login_email" />
+                </methods>
+            
+            
+        </class>  
+        <class name="com.Signup" ></class> 
+    </classes>
+</test>
+
+
+
+
+</suite>

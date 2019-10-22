@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="183" started-at="2019-08-11T07:25:40Z" finished-at="2019-08-11T07:25:40Z">
+    <groups>
+    </groups>
+    <test name="base test cases" duration-ms="183" started-at="2019-08-11T07:25:40Z" finished-at="2019-08-11T07:25:40Z">
+      <class name="com.testcases2">
+        <test-method status="PASS" signature="loginTest23()[pri:-6, instance:com.testcases2@61443d8f]" name="loginTest23" duration-ms="30" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest23 -->
+        <test-method status="PASS" signature="changePassword2()[pri:-5, instance:com.testcases2@61443d8f]" name="changePassword2" duration-ms="4" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword2 -->
+        <test-method status="PASS" signature="HomePage2()[pri:7, instance:com.testcases2@61443d8f]" name="HomePage2" duration-ms="2" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage2 -->
+        <test-method status="PASS" signature="loginTest33()[pri:8, instance:com.testcases2@61443d8f]" name="loginTest33" duration-ms="4" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest33 -->
+      </class> <!-- com.testcases2 -->
+      <class name="com.testcases">
+        <test-method status="PASS" signature="changePassword()[pri:1, instance:com.testcases@233c0b17]" name="changePassword" duration-ms="3" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method status="PASS" signature="loginTest2()[pri:2, instance:com.testcases@233c0b17]" name="loginTest2" duration-ms="5" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method status="PASS" signature="HomePage()[pri:3, instance:com.testcases@233c0b17]" name="HomePage" duration-ms="6" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="loginTest3()[pri:4, instance:com.testcases@233c0b17]" name="loginTest3" duration-ms="5" started-at="2019-08-11T12:55:40Z" finished-at="2019-08-11T12:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest3 -->
+      </class> <!-- com.testcases -->
+    </test> <!-- base test cases -->
+  </suite> <!-- TestNG Learning -->
+</testng-results>
